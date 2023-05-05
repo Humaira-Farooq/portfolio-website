@@ -1,0 +1,89 @@
+@media (max-width :1199.5px) {
+    /* custom css */
+
+    h1{
+        font-size: 3rem;
+    }
+    
+    h2{
+        font-size: 2.1875rem;
+    }
+    h3{
+        font-size: 1.875rem;
+        line-height: 2.6875rem;
+    }
+    h4{
+        font-size: 1rem;
+    }
+    /* blog */
+
+    .blog-wrapper .blog-details{
+        top: 0.3125rem;
+        left:  0.3125rem;
+        right:  0.3125rem;
+        bottom:  0.3125rem;
+    }
+}
+@media (max-width:575.5px) {
+    .blog-wrapper .blog-details{
+        top: 2.1875rem;
+        left:  2.1875rem;
+        right:  2.1875rem;
+        bottom:  2.1875rem;
+    }
+}
+@media (max-width : 767px) {
+    h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    h2{
+        font-size: 1.875rem;
+        line-height: 2.375rem;
+    }
+    h3{
+        font-size: 1.5625rem;
+        line-height: 2.1875rem;
+    }
+    /* About */
+
+    .about-wrapper .client-info::before{
+        top: 0.25rem;
+        left: 2.8125rem;
+    }
+
+    .about-wrapper .client-info > div{
+        justify-content: center;
+    }
+}
+@media (max-width:991px) {
+    /* navbar 2 */
+
+    .header-scorlled{
+        height: auto;
+    }
+    .header-wrapper.navbar-collapse{
+        margin-top: -0.125rem;
+    } 
+    .header-wrapper .menu-navbar-nav{
+        text-align: center;
+        background-color: var(--bg-white);
+        padding-bottom: 0.9375rem;
+    }
+    .header-wrapper .nav-item .nav-link{
+        margin-bottom: 0.9375rem;
+    }
+}
+/* banner */
+@media (max-width: 390px) {
+    .banner-wrapper .banner-content h2::after{
+        width: 34%;
+        margin-left: 2rem;
+    }
+}
+
+@media (max-width:640px) {
+    .top-right-img img{
+        width: 90%;
+    }
+}
